@@ -4,25 +4,24 @@ import 'package:ikhsan/container.dart';
 import 'package:ikhsan/image.dart';
 import 'package:ikhsan/latihan.dart';
 import 'package:ikhsan/latihan2.dart';
+import 'package:ikhsan/latihan3.dart';
+import 'package:ikhsan/latihan4.dart';
+
 
 
 void main() {
-  runApp(latihan2());
+  runApp(latihan4());
 }
 
-class latihan2 extends StatelessWidget {
-  const latihan2({Key? key}) : super(key: key);
+class latihan4 extends StatelessWidget {
+  const latihan4({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Flutter Pertama",
       home: Scaffold(
-        appBar: AppBar(
-          title: Text("Belajar Flutter"),
-          backgroundColor: Colors.pinkAccent,
-        ),
-        body: Latihan2(),
+        body: Latihan4(),
       ),
     );
   }
